@@ -1,0 +1,14 @@
+name = "ktb_il"
+version = "0.1.0"
+defaultTargets = ["ktb_il"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "KTBIL"
+
+[[lean_exe]]
+name = "ktb_il"
+root = "Main"
